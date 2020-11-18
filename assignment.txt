@@ -1,0 +1,24 @@
+Student Details:
+
+1. Surname
+2. First name Other names
+
+3. Mobile Phone number: 
+
+4. e-mail Address
+
+5. Gender
+
+6. Preferred Vocational Skill
+
+-Fashion Designing (Tailoring)
+
+-Cake Baking and Decorations
+
+-Pastries and Drinks
+
+- Shoe and Bag
+
+- Bridal Hair, make-up n Gel Tying
+
+- ICT
