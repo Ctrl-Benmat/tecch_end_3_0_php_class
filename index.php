@@ -19,5 +19,5 @@
     </form>
     </div>
  </div>
- <a href="all_data.php" class="btn btn-light btn-sm">ALl Data</a>
+ <a href="all_data.php" class="btn btn-light btn-sm">ALL Data</a>
  <?php require_once 'foot.php';?>

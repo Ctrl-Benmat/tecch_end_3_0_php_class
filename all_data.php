@@ -32,8 +32,8 @@
     <?php while ($res = $result->fetch_assoc()) { ?>
         <tr>
             <td><?php echo $res['id'] ?></td>
-            <td><?php echo $res['name'] ?></td>
-            <td><?php echo $res['location'] ?></td>
+            <td><?php echo $res['Name'] ?></td>
+            <td><?php echo $res['Location'] ?></td>
             <td><?php echo $res['created_at'] ?></td>
             <td>
                 <a href="view.php?id=<?php echo $res['id'] ?>" class="btn btn-primary btn-sm">View</a>

@@ -23,12 +23,12 @@
     <div class="offset-4 col-md-4">
     <form action="update.php?id=<?php echo $id ?>" method="post">
         <div class="form-group">
-            <input type="text" class="form-control" name="name" placeholder="Input name" value="<?php echo $data['name'] ?>">
+            <input type="text" class="form-control" name="name" placeholder="Input name" value="<?php echo $data['Name'] ?>">
             <!-- <input type="text" class="form-control" placeholder="Input name"> -->
         </div>
 
         <div class="form-group">
-            <input  value="<?php echo $data['location'] ?>" type="location" class="form-control" name="location" placeholder="Input location">
+            <input  value="<?php echo $data['Location'] ?>" type="location" class="form-control" name="location" placeholder="Input location">
         </div>
         <div class="form-group">
             <button class="btn-block btn-primary">
