@@ -36,6 +36,7 @@
             <td><?php echo $res['location'] ?></td>
             <td><?php echo $res['created_at'] ?></td>
             <td>
+                <a href="view.php?id=<?php echo $res['id'] ?>" class="btn btn-primary btn-sm">View</a>
                 <a href="edit.php?id=<?php echo $res['id'] ?>" class="btn btn-light btn-sm">Edit</a>
                 <a href="delete.php?id=<?php echo $res['id'] ?>" class="btn btn-danger btn-sm">Delete</a>
             </td> 
