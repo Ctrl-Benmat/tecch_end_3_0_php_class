@@ -22,3 +22,9 @@ Student Details:
 - Bridal Hair, make-up n Gel Tying
 
 - ICT
+
+
+Insert the data into the database
+Get all the data and display them in a table
+Edit the data and update it.
+Delete the data from the database

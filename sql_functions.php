@@ -18,13 +18,13 @@ function insertImproved($tableName, $columns, $data) {
 }
 
 
-function getData($tableName, $condition) {
+function getOneData($tableName, $condition) {
     global  $mysqli;
     // SELECT column FROM tablename WHERE
-    $sql = "SELECT * FROM $tableName ";
-    if ($condition != null) {
-        
-    }
+    $sql = "SELECT * FROM $tableName $condition";
+
+    $result = $mysqli->query($sql);
+    return $result;
         
 }
 
@@ -35,5 +35,12 @@ function updateData($tableName, $condition) {
     if ($condition != null) {
         
     }
-        
+}
+
+
+function getAllData($tableName) {
+    global $mysqli;
+    $sql = "SELECT * FROM $tableName";
+    $result = $mysqli->query($sql);
+    return $result;
 }

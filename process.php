@@ -21,7 +21,9 @@ $inserted = insertImproved('tbl_crud', ['Name', 'Location', 'created_at'], $_POS
 
 // $inserted = insert($sql); // Insert operation from sql_functions.php
 if ($inserted) {
-    echo "<div class='alert alert-success text-center'>inserted</div>";
+    // echo "<div class='alert alert-success text-center'>inserted</div>";
+    header("location: all_data.php");
 } else {
-    echo "<div class='alert alert-danger text-center'>Not inserted ".mysqli_error($mysqli)."</div>";
+    // echo "<div class='alert alert-danger text-center'>Not inserted ".mysqli_error($mysqli)."</div>";
+    header("location: index.php");
 }
