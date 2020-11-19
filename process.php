@@ -1,7 +1,7 @@
 <?php
 require_once 'sql_functions.php';
 $_POST['created_at'] = date('Y-m-d H:i:s');
-$inserted = insertImproved('tbl_crud', ['Name', 'Location', 'created_at'], $_POST);
+$inserted = insertImproved('tbl_crud', 'Name, Location, created_at', $_POST);
 // // echo "POST: ";
 // // var_dump($_POST); echo "<br/>";
 // // echo "GET: ";
@@ -25,5 +25,6 @@ if ($inserted) {
     header("location: all_data.php");
 } else {
     // echo "<div class='alert alert-danger text-center'>Not inserted ".mysqli_error($mysqli)."</div>";
-    header("location: index.php");
+    // header("location: index.php");
+    echo mysqli_error($mysqli);
 }
