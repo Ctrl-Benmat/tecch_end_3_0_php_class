@@ -5,7 +5,7 @@ require_once 'conn.php';
 function insertImproved($tableName, $columns, $data) {
     global $mysqli;
     // "INSERT INTO table_name (name, location) VALUES(val1, val2, val3)";
-    $sql = "INSERT INTO $tableName ($columns) VALUES(";
+    $sql = "INSERT INTO $tableName ($columns) VALUES("; 
     $values = [];
     foreach($data as $key => $value) {
         array_push($values, "'".$value."'");

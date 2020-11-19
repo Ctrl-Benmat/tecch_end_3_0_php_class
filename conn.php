@@ -3,7 +3,7 @@
 $host = 'localhost';
 $username = 'root';
 $password = '';
-$dbname = 'db_crud';
+$dbname = 'crud';
 
 
 // Connecting to database
