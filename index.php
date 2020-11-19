@@ -1,4 +1,5 @@
 <?php require_once 'head.php';?>
+<h1>Create</h1>
  <div class="row">
     <div class="offset-4 col-md-4">
     <form action="process.php" method="post">
@@ -18,4 +19,5 @@
     </form>
     </div>
  </div>
+ <a href="all_data.php" class="btn btn-light btn-sm">ALl Data</a>
  <?php require_once 'foot.php';?>
